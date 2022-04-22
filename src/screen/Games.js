@@ -8,7 +8,7 @@ class Game extends React.Component
             <div className="screen-game">
                 <h1>Games</h1>
                 <div>
-                    <i className="fas fa-gamepad"></i>
+                <img className="cf-button-i img-size" style={{height:'240px', width:'240px'}}></img>
                 </div>
             </div>
         );

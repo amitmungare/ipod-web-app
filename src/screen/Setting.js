@@ -8,7 +8,7 @@ class Setting extends React.Component
             <div className="screen-setting">
                 <h1>Settings</h1>
                 <div>
-                    <i className="fas fa-cogs"></i>
+                    <img className="setting-img img-size" style={{height:'240px', width:'240px'}}></img>
                 </div>
             </div>
         );

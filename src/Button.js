@@ -9,16 +9,16 @@ const Button = (props) =>
             </button>
 
             <button className="menu-button" onClick={props.menuButtonClicked}>
-                <i className="fas fa-bars"></i>
+                <img className="bar-button-i btn-size"></img>
             </button>
             <button className="left-button" onClick={props.leftButtonClicked}>
-                <i className="fas fa-backward"></i>
+                <img className="back-button-i btn-size"></img>
             </button>
             <button className="right-button" onClick={props.rightButtonClicked}>
-                <i className="fas fa-forward"></i>
+                <img className="forward-button-i btn-size"></img>
             </button>
             <button className="play-pause" onClick={props.playPauseButtonClicked}>
-                <i className="fas fa-play"></i>/<i className="fas fa-pause"></i>
+            <img className="play-button-i btn-size"></img>/ <img className="pause-button-i btn-size"></img>
             </button>
         </div>
     );

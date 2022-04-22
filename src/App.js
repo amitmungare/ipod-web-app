@@ -263,9 +263,6 @@ class App extends React.Component {
               rightButtonClicked={this.rightButtonClicked}
               playPauseButtonClicked={this.playPauseButtonClicked}
           />
-          <button className="rotate" onClick={this.rotatePod}>
-              <i className="fas fa-undo"></i>
-          </button>
       </div>
   );
   }

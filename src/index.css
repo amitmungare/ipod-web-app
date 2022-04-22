@@ -100,6 +100,40 @@ code {
 	background-color: transparent;
 	color: rgb(78, 78, 78);
 }
+
+.btn-size{
+  height: 35px;
+  width: 35px;
+  background-repeat: no-repeat;
+}
+
+.img-size{
+	background-repeat: no-repeat;
+	background-size: 250px 260px;
+}
+
+.bar-button-i{
+  background-image: url("./icons/bars-solid.svg");
+}
+.back-button-i{
+  background-image: url("./icons/backward-solid.svg");
+}
+.forward-button-i{
+  background-image: url("./icons/forward-solid.svg");
+}
+.pause-button-i{
+  background-image: url("./icons/pause-solid.svg");
+}
+.play-button-i{
+  background-image: url("./icons/play-solid.svg");
+}
+.setting-img{
+	background-image: url("./images/setting-icon-vector-24647299.jpg");
+}
+.cf-img{
+	background-image: url("./images/4OREd.png");
+}
+
 .left-button {
 	position: absolute;
 	left: 0px;

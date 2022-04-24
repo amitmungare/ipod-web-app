@@ -1,21 +1,9 @@
-import React from 'react';
-
-class Artists extends React.Component
-{
-    render()
-    {
-        return (
-            <div className="artists-screen">
-                <h1>
-                    Artists
-                </h1>
-                <div>
-                    <i className="far fa-smile"></i>
-                </div>
-            </div>
-        )
-
-    }
+// Artists Component
+function Artists(){
+    return(
+        <div className="screen-common" id="Artists-div">
+            <h2 className="h2-name-tag">Albums</h2>
+        </div>
+    );
 }
-
 export default Artists;

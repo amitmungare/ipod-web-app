@@ -1,36 +1,17 @@
-import React from 'react';
-
-class Music extends React.Component
-{
-    componentDidMount()
-    {
-        this.props.currentlyOnPlayMusicScreen();
-        this.props.playPauseButtonClicked();
-    }
-    componentWillUnmount()
-    {
-        this.props.currentlyOnPlayMusicScreen()
-    }
-    render()
-    {
-        const {songIndex, Songs}=this.props;
-        return (
-            <div className="screen-music">
-                <h2>{Songs[songIndex].name}</h2>
-                <div className="song-image">
-                    <img src={'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTzrIyTb8emnPtXD2EYZ1nkSdIkYZ2zxUzUhw&usqp=CAU'} alt="song item"></img>
-                </div>
-                <div style={{marginTop:20}}>
-                    <audio controls="seeking" id="audio" src={Songs[songIndex].url}></audio>
-                </div>
-                <div className='screen-music-instruction'>
-                    <p>
-                        Press "<i className="fas fa-play"></i>/<i className="fas fa-pause"></i>" button to play/pause.
-                    </p>
-                </div>
+// Music Component
+function PlayMusic(props){
+    return(
+        <div id="ipod-screen-container">
+            <div id="ipod-screen">
+                <div style={{color: 'white', background: 'rgb(16, 140, 189)', textAlign: 'center', padding: 2}}><b>Music</b></div>
+                <ul>
+                    <li className={props.activeMenu === "allSongs" ? 'activeMenu': ''}>All Songs</li>
+                    <li className={props.activeMenu === "artists" ? 'activeMenu': ''}>Artists</li>
+                    <li className={props.activeMenu === "albums" ? 'activeMenu': ''}>Albums</li>
+                </ul>
             </div>
-        );
-    }
-};
+        </div>
+    );
+}
 
-export default Music;
+export default PlayMusic;

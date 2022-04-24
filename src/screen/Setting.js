@@ -1,18 +1,10 @@
-import React from 'react';
+// Settings Component
+function Settings(){
+    return(
+        <div className="screen-common" id="setting-div">
+            <h2 className="h2-name-tag">Settings</h2>
+        </div>
+    );
+}
 
-class Setting extends React.Component
-{
-    render()
-    {
-        return (
-            <div className="screen-setting">
-                <h1>Settings</h1>
-                <div>
-                    <img className="setting-img img-size" style={{height:'240px', width:'240px'}}></img>
-                </div>
-            </div>
-        );
-    }
-};
-
-export default Setting;
+export default Settings;

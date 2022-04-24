@@ -1,21 +1,18 @@
+/* css for body  */
 body {
 	margin: 0;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-	  "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-	  sans-serif;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	position: relative;
 	box-sizing: border-box;
-	background-image: url("./images/bgimage.png");
+	background-image: url("./images/bgimg4.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
   }
   
-  code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-	  monospace;
-  }
-  
-  /* Ipod Container */
+  /* ipod css */
   #ipod-container {
 	margin: 20px auto;
 	height: 540px;
@@ -24,40 +21,40 @@ body {
 	width: 320px;
 	box-shadow: inset 10px 10px 50px #151313;
 	padding-top: 10px;
-	
 }
   
-  /* Ipod Screen CSS */
-  
+  /* ipod Screen css container*/
   #ipod-screen-container{
 	margin: 10px;
 	min-height: 50%;
-	background: url("https://i.postimg.cc/Tw4zbGtC/background-min.jpg");
+	background: url("./images/wallpaper.jpg");
 	background-size: cover;
 	border-radius: 5px;
   }
   
+  /* ipod Screen css */
   #ipod-screen {
 	background:#8d8de3;
 	padding: 5px;
 	border-radius: 5px 0 0 5px;
-	width: 65%;
+	width: 60%;
 	height: 265px;
   }
   
+  /* ipod Screen list css */
   #ipod-screen ul {
 	list-style: none;
 	margin-top: 10px;
 	padding: 0;
   }
   
+  /* ipod Screen list css */
   #ipod-screen ul li {
 	padding: 5px;
 	color: white;
   }
   
-  /* Menu Wheel CSS */
-  
+  /* MenuWheel css */
   #menu-wheel{
 	background: rgb(183, 208, 248);
 	margin: 0 auto;
@@ -69,6 +66,7 @@ body {
 	box-shadow: 0 20px 25px -5px rgba(0, 0, 0 , 0.1), 0 8px 10px -6px rgba(0, 0, 0 , 0.1);
   }
   
+  /* select middle btn */
   #submit-btn{
 	background-color: rgb(3, 0, 0);
 	width: 65px;
@@ -83,23 +81,20 @@ body {
 	color:white;
   }
   
-  /* Active Menu Color */
+  /* Active Menu color */
   .activeMenu{
 	background: rgb(5, 179, 242);
 	color: white;
   }
   
-  /* Show Arrow on Active Menu */
-  .activeMenu::after{
-	content: '>';
-	float: right;
-  }
   
-  /* Wheel Menu Buttons CSS*/
+  
+  /* Wheel Menu Buttons css*/
   #wheel-container{
 	position: relative;
   }
   
+  /* menu css */
   #menu{
 	position: absolute;
 	left: 50%;
@@ -109,9 +104,10 @@ body {
 	font-size: 20px;
 	color: rgb(8, 5, 5);
 	cursor: default;
-	user-select: none; /* Make sure that menu is not selected, while rotating */
+	user-select: none;
   }
   
+  /* left icon  */
   #left-play-back{
 	position: absolute;
 	top: 50%;
@@ -120,6 +116,7 @@ body {
 	transform: translateY(-50%) rotate(180deg);
   }
   
+  /* right icon  */
   #right-play-back{
 	position: absolute;
 	top: 50%;
@@ -128,6 +125,7 @@ body {
 	transform: translateY(-50%);
   }
   
+  /* play pause icon  */
   #play-pause{
 	position: absolute;
 	bottom: 7%;
@@ -136,7 +134,7 @@ body {
 	transform: translateX(-50%);
   }
   
-  
+  /* title   */
   .container-title{
 	text-align: center;
 	background: rgb(13, 149, 212);
@@ -146,7 +144,7 @@ body {
 	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.3);
   }
 
-  /* Component CSS  */
+  /* Component css  */
   .screen-common{
 	background-size:contain;
 	margin: 20px;
@@ -161,7 +159,7 @@ body {
 	background-color: #8d8de3;
    }
 
-  /* Coverflow Component image */
+  /* Coverflow image */
   #coverflow-div{
 	background: url("./images/coverflow.png");
 	background-size: cover;
@@ -169,7 +167,7 @@ body {
 	background-repeat: no-repeat;
   }
 
-  /* Game Component image */
+  /* Game image */
   #game-div{
 	background: url("./images/car-racing-game.jpg");
 	background-size: cover;
@@ -177,7 +175,7 @@ body {
 	background-repeat: no-repeat;
   }
 
-  /* Settings Component image */
+  /* Settings image */
   #setting-div{
 	background: url("./images/setting.jpg");
 	background-size: cover;
@@ -185,7 +183,7 @@ body {
 	background-repeat: no-repeat;
   }
   
-  /* Albums Component image */
+  /* Albums image */
   #albums-div{
 	background: url("./images/Albums.jpg");
 	background-size: cover;
@@ -194,7 +192,7 @@ body {
 	
   }
   
-  /* Artists Component image */
+  /* Artists image */
   #Artists-div{
 	background: url("./images/Artists.jpg");
 	background-size: cover;
@@ -202,7 +200,7 @@ body {
 	background-repeat: no-repeat;
   }
   
-  /* Song Component image */
+  /* Song image */
   #song-div{
 	background: url("./images/songp.jpg");
 	background-size: cover;

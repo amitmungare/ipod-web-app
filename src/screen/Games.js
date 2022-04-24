@@ -1,4 +1,4 @@
-// Games Component
+// Games function
 function Games(){
     return(
         <div className="screen-common" id="game-div">

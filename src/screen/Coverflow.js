@@ -1,4 +1,4 @@
-// Coverflow Component
+// Coverflow function
 function Coverflow(){
     return(
         <div className="screen-common" id="coverflow-div">

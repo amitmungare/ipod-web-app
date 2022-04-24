@@ -1,8 +1,8 @@
-// Artists Component
+// Artists function
 function Artists(){
     return(
         <div className="screen-common" id="Artists-div">
-            <h2 className="h2-name-tag">Albums</h2>
+            <h2 className="h2-name-tag">Artists</h2>
         </div>
     );
 }

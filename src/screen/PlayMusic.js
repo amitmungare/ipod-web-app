@@ -1,4 +1,4 @@
-// Music Component
+// Music function
 function PlayMusic(props){
     return(
         <div id="ipod-screen-container">

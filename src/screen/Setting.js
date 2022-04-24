@@ -1,4 +1,4 @@
-// Settings Component
+// Settings function
 function Settings(){
     return(
         <div className="screen-common" id="setting-div">

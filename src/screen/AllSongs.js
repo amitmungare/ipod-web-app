@@ -1,4 +1,4 @@
-// All Songs Component
+// AllSongs function
 function AllSongs() {
     return (
         <div className="screen-common" id="song-div">

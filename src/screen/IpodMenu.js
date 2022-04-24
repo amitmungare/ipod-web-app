@@ -4,7 +4,7 @@ import {faForward} from "@fortawesome/free-solid-svg-icons"
 import {faPlay} from "@fortawesome/free-solid-svg-icons"
 import {faPause} from "@fortawesome/free-solid-svg-icons"
 
-// Menu Wheel Functional Component
+// Menu Wheel Functional
 function IpodMenuWheel(props) {
     return (
         <div id='wheel-container'>

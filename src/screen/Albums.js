@@ -1,4 +1,4 @@
-// Albums Component
+// Albums function
 function Albums(){
     return(
         <div className="screen-common" id="albums-div">
